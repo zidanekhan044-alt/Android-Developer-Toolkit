@@ -37,12 +37,10 @@ class TextUtilsTest {
     }
 
     @Test
-fun reverse() {
-    assertEquals(
-        "niltoK",
-        TextUtils.reverse("Kotlin")
-    )
-}
+    fun reverse() {
+        assertEquals(
+            "niltoK",
+            TextUtils.reverse("Kotlin")
         )
     }
 }
