@@ -1,3 +1,4 @@
+
 pluginManagement {
     repositories {
         google()
@@ -17,3 +18,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Android-Developer-Toolkit"
+
+include(":app")
