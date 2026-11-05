@@ -46,7 +46,8 @@ class StringExtensionsTest {
 
     @Test
     fun reversedText() {
-        assertEquals("niloK", "Kotlin".reversedText())
+        assertEquals("niltoK", "Kotlin".reversedText())
         assertEquals("", "".reversedText())
+        assertEquals("54321", "12345".reversedText())
     }
 }
